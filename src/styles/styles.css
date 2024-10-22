@@ -1,0 +1,87 @@
+body {
+  background-color: #fdf5e6; /* Color crema */
+  font-family: Arial, sans-serif;
+}
+
+.animal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.animal-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.animal-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.adopt-button {
+  background-color: #f65b2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.adopt-button:hover {
+  background-color: #d44b20;
+}
+
+.adoption-form {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #f65b2a;
+  border-radius: 5px;
+  background-color: #fff4e5;
+}
+
+.adopt-popup {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.filter-form {
+  margin-bottom: 20px;
+}
+
+.filter-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.filter-form select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.filter-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f65b2a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-form button:hover {
+  background-color: #d44b20;
+}
